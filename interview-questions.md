@@ -13,7 +13,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 Your answer:
 
-- Object-oriented programming (OOP): OOP is a way of writing computer programs that focuses on "objects" which contain both data and code that works with that data. Objects can interact with each other through "methods", which are like actions that can be performed on the object's data. OOP is different from "functional programming", which is another way of writing computer programs that focuses on using "functions" to process data instead of objects.
+- Object-oriented programming (OOP): OOP is a way of writing computer programs that's all about objects. These objects are like little packages that contain both data and code that works with that data. And they can talk to each other through methods, which are like actions they can perform on each other's data. It's different from functional programming, which is another way to write programs that's all about using functions to process data instead of objects. But hey, whatever floats your boat!OOP is a way of writing computer programs that's all about objects. These objects are like little packages that contain both data and code that works with that data. And they can talk to each other through methods, which are like actions they can perform on each other's data. It's different from functional programming, which is another way to write programs that's all about using functions to process data instead of objects. But hey, whatever floats your boat!
 
 ---
 
@@ -55,7 +55,7 @@ Researched answer:
 
 Your answer:
 
-- Float and Integer in Ruby: A "Float" is a type of number in programming that can have a "decimal point" and represent fractions or parts of a whole number. An "Integer" is a type of number in programming that represents whole numbers without any decimal points. Here are some examples:
+- Floats and Integer in Ruby: Alright, let's talk about Floats and Integers in Ruby. So, a Float is a type of number that can have a decimal point, meaning it can represent fractions or parts of a whole number. It's like when you want to split a pizza into equal pieces, and each piece can be represented as a fraction, like 1/4 or 0.25. On the other hand, an Integer is a type of number that represents whole numbers without any decimal points. It's like when you're counting how many slices of pizza you have left - you can't have half a slice or a quarter of a slice, it's either one whole slice or nothing. Hope that clears things up! Here are some examples:
     ```ruby
     # This is a Float because it has a decimal point
     price = 2.99
@@ -85,7 +85,7 @@ Researched answer:
 
 Your answer:
 
-- Implicit return in Ruby: In Ruby, when you write a block of code like a method or a loop, the last line of code will automatically be the "return value" of the block. This means you don't need to use the word "return" to return a value from the block. Here's an example: 
+- Implicit return in Ruby: In Ruby, the last line of code in a block will automatically be treated as the "return value" of the block. That means you don't need to use the word "return" to send a value back from the block. It's like when you're writing a note to a friend - whatever you write last is usually what sticks in their mind, right? Same deal here - Ruby remembers the last line of the block and treats it as the return value. Here's an example: 
     ```ruby
     # This method adds two numbers and returns the result
     def add_numbers(a, b)
@@ -119,7 +119,7 @@ Researched answer:
 
 Your answer:
 
-- Blocks in Ruby: A "block" in Ruby is a way of writing a short piece of code that can be "passed in" to another method to be used. Blocks are often used to perform a task repeatedly or to sort data. Here's an example:
+- Blocks in Ruby: A block in Ruby is basically a way to write a short piece of code that can be "passed in" to another method to be used. Think of it like a tool that you can plug in to different machines to get different results. Blocks are really handy for tasks that you need to do repeatedly or for sorting data, like if you're organizing a closet and you want to sort your clothes by color or size. You can write a block of code to handle that task, and then just "pass it in" to different methods as needed. It's like having a Swiss Army knife for your code - versatile and efficient! Here's an example:
     ```rb
     # This method calls the block repeatedly with each number in the list
     def do_something_with_each_number(numbers)
@@ -163,7 +163,7 @@ One powerful feature of blocks in Ruby is their ability to capture variables fro
 
 Your answer:
 
-- Extracting a value from a Ruby hash: A "hash" in Ruby is a way of storing data that is associated with a "key". To extract a value from a hash, you can use the key to "look up" the value. Here's an example:
+- Extracting a value from a Ruby hash: A hash in Ruby is a way to store data that's associated with a "key". It's kind of like having a drawer full of keys - each key opens a different lock, and behind each lock is a different piece of data. To get the data you need, you just use the right key to "look it up" in the hash. So, let's say you have a hash with different kinds of fruit and their prices - you could use the name of the fruit as the key and the price as the value. Then, when you need to know the price of a specific fruit, you just look it up in the hash using the fruit name as the key.  Here's an example:
     ```ruby
     # This hash maps fruit names to their colors
     fruit_colors = {"apple" => "red", "banana" => "yellow", "orange" => "orange"}
